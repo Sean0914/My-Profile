@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short-Web</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <!-- Aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo" data-aos="fade-right" data-aos-duration="400">Sean</div>
+            <!-- Add this burger icon -->
+<div class="burger" onclick="toggleMenu()">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+
+            <div class="nav-bar">
+                <ul>
+                    <li  data-aos="fade-right" data-aos-duration="500"><a href="#">Home</a></li>
+                    <li data-aos="fade-right" data-aos-duration="600"><a href="#skills" >Skills</a></li>
+                    <li data-aos="fade-right" data-aos-duration="700"><a href="#projects" >Project</a></li>
+                    <li data-aos="fade-right" data-aos-duration="800"><a href="#contact" >Contact</a></li>
+                </ul>
+            </div>
+            <div class="btn" data-aos="fade-right" data-aos-duration="900"><button>Git hub</button></div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="info">
+          <div class="mypic">
+              <img src="/assets/eaedcgvb.jpg"  data-aos="zoom-out-up" data-aos-duration="2000">
+               <div class="statement" id="typedText"></div>
+          </div>
+        </div>
+    </div>
+   <div class="skills-section">
+    <h2 class="section-title" id="skills" data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+
+    <!-- Skills I Have -->
+    <div class="skills-group" data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="group-title">✅ Skills I Have</h3>
+      <div class="skills-grid">
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1000">HTML</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1200">CSS</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1200">C Programming</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1300">Java Programming</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1300">Canva</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1400">Video Editing</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1500">Git</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1000">Photoshop</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1400">Premiere Pro</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1500">CapCut</div>
+      </div>
+    </div>
+
+    <!-- Skills I Must Learn -->
+    <div class="skills-group" data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="group-title">🧠 Skills I Must Learn</h3>
+      <div class="skills-grid">
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1000">JavaScript</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1200">Tailwind CSS</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1300">React.js</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1400">Node.js</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1500">MongoDB</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1000">MySQL</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1200">Express.js</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1300">Figma</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1400">TypeScript</div>
+        <div class="skill-box" data-aos="fade-up" data-aos-duration="1500">API Integration</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects-section" id="projects">
+  <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Projects</h2>
+  
+  <div class="projects-grid" data-aos="fade-up">
+    <!-- Project Cards with Placeholder Images -->
+    <div class="project-card" data-aos="fade-right" data-aos-duration="700">
+      <img src="/assets/calcu.jpg" alt="Project 1" class="project-img">
+      <p>Calculator</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-duration="700">
+      <img src="/assets/Screenshot 2025-03-14 191534.png" alt="Project 2" class="project-img" >
+      <p>About Me</p>
+    </div>
+    <div class="project-card" data-aos="fade-left" data-aos-duration="700">
+      <img src="/assets/todo.png" alt="Project 3" class="project-img" >
+      <p>To DO List</p>
+    </div>
+    <div class="project-card" data-aos="fade-right" data-aos-duration="700">
+      <img src="/assets/Portfolio1.png" alt="Project 4" class="project-img">
+      <p>Portfolio Web</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-duration="700">
+      <img src="/assets/Login.png" alt="Project 5" class="project-img">
+      <p>Log in</p>
+    </div>
+    <div class="project-card" data-aos="fade-left" data-aos-duration="700">
+      <img src="/assets/Screenshot 2025-06-05 183800.png" alt="Project 6" class="project-img">
+      <p>Web Blog</p>
+    </div>
+  </div>
+</div>
+
+<footer class="contact-footer" id="contact">
+  <h2 class="footer-title" data-aos="fade-up" data-aos-duration="700">Get in Touch</h2>
+
+  <form class="footer-form" data-aos="fade-up" data-aos-duration="700">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <div class="footer-bottom">
+    <p>© 2025 Sean Andrei Lapaz. All rights reserved.</p>
+    <div class="footer-socials">
+      <a href="#" target="_blank">GitHub</a>
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">Email</a>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+             </script>
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>
