@@ -43,30 +43,6 @@ html{
   transition: all 0.3s ease;
 }
 
-/* Mobile Navigation */
-@media (max-width: 768px) {
-  .burger {
-    display: flex;
-  }
-
-  .nav-bar {
-    display: none;
-    width: 100%;
-    text-align: center;
-    background-color: #000000;
-  }
-
-  .nav-bar ul {
-    flex-direction: column;
-    padding: 20px 0;
-  }
-
-  .nav-bar.show {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .nav-bar ul{
     display: flex;
     padding: 0;
@@ -254,7 +230,7 @@ html{
 
 .footer-bottom {
   margin-top: 20px;
-  padding-top: 200px;
+  padding-top: 240px;
 }
 
 .footer-socials {
@@ -271,86 +247,33 @@ html{
 .footer-socials a:hover {
   color: #ffffff;
 }
-@media (max-width: 1024px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
 
-  .burger {
-    display: flex;
-  }
-
-  .nav-bar {
-    display: none;
-    width: 100%;
-    text-align: center;
-    background-color: #000000;
-    flex-direction: column;
-  }
-
-  .nav-bar ul {
-    flex-direction: column;
-    padding: 20px 0;
-    margin: 0;
-  }
-
-  .nav-bar.show {
-    display: flex;
-  }
-}
-  body, html {
-  overflow-x: hidden;
-}
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
-  }
-
-  .mypic {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 20px;
-  }
-
-  .mypic img {
-    width: 90%;
-    margin-top: 20px;
-  }
-
-  .statement {
-    padding-top: 20px;
-    text-align: center;
-  }
 
 /* Tablets (768px and below) */
 @media (max-width: 768px) {
   body, html {
   overflow-x: hidden;
 }
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+.skills-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
-
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .mypic {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 60px 20px;
   }
-
   .mypic img {
     width: 90%;
     margin-top: 20px;
   }
-
   .statement {
     padding-top: 20px;
     text-align: center;
   }
-
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -358,11 +281,9 @@ html{
     padding: 10px 20px;
     flex-wrap: wrap;
   }
-
   .burger {
     display: flex;
   }
-
   .nav-bar {
     display: none;
     width: 100%;
@@ -370,31 +291,25 @@ html{
     flex-direction: column;
     align-items: center;
   }
-
   .nav-bar ul {
     flex-direction: column;
     padding: 0;
     margin: 20px 0;
   }
-
   .nav-bar ul li {
     margin: 10px 0;
   }
-
   .nav-bar.show {
     display: flex;
   }
-
   .btn {
-    display: none; /* Hide if button should not appear on mobile/tablet */
+    display: none; 
   }
-}
-
   .footer-form {
     padding: 0 20px;
   }
 
-
+}
 /* Mobile (480px and below) */
 @media (max-width: 480px) {
   body, html {
@@ -411,7 +326,7 @@ html{
     display: flex;
   }
   .btn {
-    display: none; /* Hide if button should not appear on mobile/tablet */
+    display: none; 
   }
 
   .nav-bar {
@@ -431,13 +346,13 @@ html{
   .nav-bar.show {
     display: flex;
   }
-}
+
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .projects-grid {
-    grid-template-columns: 1fr; /* 1 column on mobile */
+    grid-template-columns: 1fr; 
   }
 
   .footer-form input,
@@ -448,6 +363,7 @@ html{
 
   .footer-title {
     font-size: 1.5rem;
+    padding-top: 40px;
   }
 
   .logo {
@@ -461,6 +377,12 @@ html{
   .group-title {
     font-size: 1.2rem;
   }
+   .footer-form {
+    padding: 120px 10px;
+  }
+  .footer-bottom{
+    padding-top:  150px;
+  }
 
-
+}
 
