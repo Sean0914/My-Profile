@@ -22,6 +22,9 @@ html{
     justify-content: space-between;
     color: white;
     padding: 0 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .logo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
